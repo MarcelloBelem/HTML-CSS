@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+    EM HTML é id = em CSS e #
+    EM HTML é class = em css e .
+*/
+
+body {
+    background-color: #804340;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:#39AA60;
+}
+
+h2 {
+    color: #00FF59;
+}
+
+p {
+    color: aliceblue;
+}
+
+#Principal {
+    color: #39AA60;
+    text-align: center;
+    background-color: #8A0500;
+    box-shadow: 5px 5px 15px black;
+    width: 600px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.destaque {
+    color: #00FF59;
+    background-color: #8A0500;
+    border-radius: 10px;
+    padding: 1px 4px 1px 4px;
+}
+
+.linha {
+    background-color: #8A0500;
+    box-shadow: 5px 5px 15px black;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}

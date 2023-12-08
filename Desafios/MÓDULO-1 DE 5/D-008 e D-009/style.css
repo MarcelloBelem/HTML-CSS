@@ -1,0 +1,12 @@
+.c{display: flex;
+    justify-content: center;
+    align-items: center;}
+    .t{width: 500px;}
+.center{display: grid;
+    justify-content: center;
+        gap: 50px 50px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;}
+.body{background-color:gray;}
+.bodyv{background-color: rgb(197, 70, 70);}
+.bodyvi{background-color: rgb(72, 204, 204);}

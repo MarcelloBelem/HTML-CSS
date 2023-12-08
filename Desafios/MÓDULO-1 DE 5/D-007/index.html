@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <style>
+
+        .c{display: flex;
+        justify-content: center;
+        align-items: center;}
+
+    </style>
+    <h1>Imagem Flexível</h1>
+    <p>Está imagem tem uma condição, dependendo do dispositivo ou tamanho da pagina ela se ajusta </p>
+    <div class="c">
+        <picture>
+                <source media="(max-width: 750px )" srcset="img/bird-p.jpg" type="image/jpg">
+                <source media="(max-width: 1050px )" srcset="img/bird-m.jpg" type="image/jpg">
+                <img src="img/bird-g.jpg" alt="imagem/.jpg">
+        </picture>
+    </div>
+</body>
+</html>

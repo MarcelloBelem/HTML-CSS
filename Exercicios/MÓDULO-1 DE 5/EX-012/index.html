@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-012</title>
+</head>
+<body>
+    <H1>Mídia em HTML</H1>
+    <h2>Imagem dinâmica</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Fotos/Foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Fotos/Foto-m.png" type="image/png">
+        <img src="Fotos/Foto-g.png" alt="">
+    </picture>
+
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML</p>
+
+    <h3>Método 1(simples)</h3>
+    <p>Esse metodo suporta: MP3 WAV OGG</p>
+    <audio src="midia/2.mp3" controls></audio>
+
+    <h3>Método 2</h3>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/2.mp3" type="audio/mpeg">
+        <source src="midia/2.mp3" type="audio/ogg">
+        <source src="midia/2.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/2.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+</body>
+</html>

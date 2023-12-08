@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(42, 151, 165);
+    font-size: 24px;
+}
+
+h2 {
+    color: darkorchid;
+}
+
+h3 {
+    color: burlywood;
+}
+
+p {
+    color: rgb(90, 65, 2);
+}
+
+.di{text-align: right;}
+.pr{color: black; text-align: right;}

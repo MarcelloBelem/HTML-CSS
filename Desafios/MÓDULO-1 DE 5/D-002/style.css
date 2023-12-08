@@ -1,0 +1,6 @@
+.p1{max-width: 30%;}
+.p2{max-width: 15%;}
+#center{margin: auto;}
+.pp{display: flex;
+justify-content: center;
+align-items: center;}

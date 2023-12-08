@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX-013</title>
+</head>
+<body>
+    <h1>Vídeos com html5</h1>
+    <h2>Inserindo vídeos hospedados localmente</h2>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <h3>Modelo simples</h3>
+    <video src="video/4K(720,60P).mp4" width="500" controls poster="img/332659.jpg"></video>
+    <h3>Modelo complexo</h3>
+    <p>Neste modelo o mesmo video sera carregado em arquivos diferente dependendo da compatibilidade do navegador!</p>
+    <video controls width="500" poster="img/332659.jpg">
+<source src="video/4K(720,60P).mp4" type="video/mp4">        
+<source src="video/4K(720,60)webm.webm" type="video/webm">        
+<p>Seu navegador nao tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+
+    <h2>Inserindo vídeos hospedados externamente</h2>
+    <h3>Inserindo vídeos do youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=orpPOlgcc0_S6ITy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
