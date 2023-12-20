@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 , p {
+    text-align: center;
+    background-color:aliceblue;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+p {
+    font-size: 1.3em;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+td {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: cadetblue;
+}
