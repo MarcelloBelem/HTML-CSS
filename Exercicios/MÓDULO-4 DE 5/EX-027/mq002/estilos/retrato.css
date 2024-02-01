@@ -2,3 +2,7 @@
 
 /* Para telas-retratos */
 
+* {
+    background-color: aqua;
+    color: red;
+}
